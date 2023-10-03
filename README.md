@@ -15,15 +15,19 @@ Esta es una de las API de "CANDATA CUN" desarrollada en C#, ASP.NET y SQL Server
    ```bash
    git clone https://github.com/Alexis-Chavarria/API-Rest-ASP.NET-SQLServer.git
 
+  - Abre el proyecto en Visual Studio.
+  - configura la cadena de conexión a tu base de datos SQL Server en el archivo appsettings.json.
+  - Iniciar la aplicación desde Visual Studio o continuar con los pasos 2 a 4.
+
 2. Navega al directorio del proyecto:
    ```bash
    cd ApiCandataCUN
 
-4. Compila el proyecto
+3. Compila el proyecto
     ```bash
    dotnet build
 
-6. ejecuta el proyecto
+4. ejecuta el proyecto
     ```bash
    dotnet run
 
@@ -47,4 +51,5 @@ Esta es una de las API de "CANDATA CUN" desarrollada en C#, ASP.NET y SQL Server
 - Conexion Base de datos con Entity Framework Core
 - Versionado con GIT
 
-
+## Licencia
+Este proyecto está bajo la licencia [Nombre de la Licencia]. Consulta el archivo LICENSE para más detalles.
