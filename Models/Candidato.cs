@@ -1,20 +1,7 @@
 ﻿namespace ApiCandataCUN.Models
 {
     public class Candidato
-    {
-        public string id { get; set; }
-        public string nombre { get; set; }
-        public string apellido { get; set; }
-        public string numero { get; set; }
-
-        public Candidato(string id, string nombre, string apellido, string numero) 
-        {
-            this.id = id;
-            this.nombre = nombre;
-            this.apellido = apellido;
-            this.numero = numero;      
-        }
-        /*
+    {        
         public string id { get; set; }
         public string tipo_Documento { get; set; }
         public string num_Documento_Estudiante { get; set; }
@@ -45,7 +32,5 @@
         public string observaciones_Resultado_Saber_Pro { get; set; }
         public string estado_Final_estudiante { get; set; }
         public string fecha_Revision_Bot { get; set; }
-        */
-
     }
 }

@@ -4,6 +4,7 @@ namespace ApiCandataCUN.Data.DataAccess
 {
     public class CandidatoRepository : ICandidatoRepository
     {
+        // Inyeccion de dependencia que permite realizar las operaciones CRUD en la Base de Datos
         private readonly ConexionSQLserver conexionSQLServer;
 
         public CandidatoRepository(ConexionSQLserver conexionSQLServer)
@@ -11,20 +12,23 @@ namespace ApiCandataCUN.Data.DataAccess
             this.conexionSQLServer = conexionSQLServer;
         }
 
+        // crear un nuevo candidato en la base de datos.
         public void crearCandidato(Candidato candidato)
         {
-            conexionSQLServer.Pruebas.Add(candidato);
+            conexionSQLServer.Candidatos.Add(candidato);
             conexionSQLServer.SaveChanges();
         }
 
+        // permite obtener un candidato por su ID.
         public Candidato obtenerCandidatoPorId(string id)
         {
-            return conexionSQLServer.Pruebas.FirstOrDefault(candidato => candidato.id == id);
+            return conexionSQLServer.Candidatos.FirstOrDefault(candidato => candidato.id == id);
         }
 
+        // devuelve una lista de todos los candidatos en la base de datos.
         public IEnumerable<Candidato> obtenerCandidatos()
         {
-            return conexionSQLServer.Pruebas.ToList();
+            return conexionSQLServer.Candidatos.ToList();
         }
     }
 }

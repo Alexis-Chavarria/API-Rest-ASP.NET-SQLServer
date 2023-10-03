@@ -12,6 +12,6 @@ namespace ApiCandataCUN.Data
         }
 
         // DbSet para cada entidad
-        public DbSet<Candidato> Pruebas { get; set; }
+        public DbSet<Candidato> Candidatos { get; set; }
     }
 }
