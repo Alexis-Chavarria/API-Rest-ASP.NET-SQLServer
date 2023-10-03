@@ -52,4 +52,4 @@ Esta es una de las API de "CANDATA CUN" desarrollada en C#, ASP.NET y SQL Server
 - Versionado con GIT
 
 ## Licencia
-Este proyecto está bajo la licencia [Nombre de la Licencia]. Consulta el archivo LICENSE para más detalles.
+Este proyecto está bajo la licencia "CUN-Licencia".
