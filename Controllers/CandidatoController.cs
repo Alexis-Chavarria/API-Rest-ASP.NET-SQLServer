@@ -54,8 +54,6 @@ namespace ApiCandataCUN.Controllers
             return Ok(candidatos);
 
         }
-        
-
 
     }
 }
