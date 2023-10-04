@@ -1,4 +1,4 @@
-# API-Rest-ASP.NET-SQLServer
+# API-Rest_CandataCUN-Post
 
 Esta es una de las API de "CANDATA CUN" desarrollada en C#, ASP.NET y SQL Server que proporciona un servicio para GUARDAR la respuesta del Bot encargado de revisar la documentación de los candidatos (estudiantes) a Grado.
 
