@@ -25,7 +25,7 @@ namespace ApiCandataCUN.Data.DataAccess
             return conexionSQLServer.Candidatos.FirstOrDefault(candidato => candidato.id == id);
         }
 
-        // devuelve una lista de todos los candidatos en la base de datos.
+        // devuelve una lista de todos los candidatos persistidos en la base de datos.
         public IEnumerable<Candidato> obtenerCandidatos()
         {
             return conexionSQLServer.Candidatos.ToList();
